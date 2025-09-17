@@ -10,7 +10,7 @@ This project examines the relationship between **credit card debt** and **socioe
 - Preprocessed data through transformations, harmonization, and restructuring into panel format.  
 - Designed a **forecasting experiment**: trained models on 2022 and tested on 2023 to evaluate out-of-sample accuracy.  
 
----
+--
 
 ## Methodology
 Three models were implemented in **R**:  
@@ -21,20 +21,20 @@ Three models were implemented in **R**:
 
 **Evaluation metric**: R² and prediction accuracy on 2023 test data.  
 
----
+--
 
 ## Results
 - **Random Forest** achieved the highest explanatory power (**R² = 0.76**).  
 - **Key predictors**: median household income, education attainment, and unemployment rate.  
 - **Less impactful**: population size and CPI.
   
----
+--
 
 ## Repository Layout
 - `data/` – processed datasets with data cleaning code in R.  
 - `scripts/` – R scripts for preprocessing, modeling, and visualization.
 
----
+--
 
 ## References
 - New York Federal Reserve – Household Debt and Credit Reports  
