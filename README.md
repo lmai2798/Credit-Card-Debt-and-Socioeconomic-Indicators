@@ -36,13 +36,6 @@ Three models were implemented in **R**:
 
 ---
 
-### Prerequisites
-Make sure you have R (≥ 4.0) installed with these packages:
-```R
-install.packages(c("tidyverse", "glmnet", "randomForest", "caret"))
-
----
-
 ### References
 - New York Federal Reserve – Household Debt and Credit Reports  
 - FRED (Federal Reserve Bank of St. Louis) – Economic Indicators  
