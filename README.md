@@ -1,5 +1,5 @@
 # Credit-Card-Debt-and-Socioeconomic-Indicators
-## 📌 Project Overview
+## Project Overview
 This project examines the relationship between **credit card debt** and **socioeconomic indicators** across U.S. states, utilizing machine learning techniques.  
 
 - Built a **balanced panel dataset (2022–2023)** by combining multiple datasets from:  
@@ -12,7 +12,7 @@ This project examines the relationship between **credit card debt** and **socioe
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 Three models were implemented in **R**:  
 
 1. **Multiple Linear Regression** – baseline interpretable model.  
@@ -23,17 +23,22 @@ Three models were implemented in **R**:
 
 ---
 
-## 📊 Results
+## Results
 - **Random Forest** achieved the highest explanatory power (**R² = 0.76**).  
 - **Key predictors**: median household income, education attainment, and unemployment rate.  
 - **Less impactful**: population size and CPI.
   
 ---
 
-## 📂 Repository Layout
-- `data/` – raw & processed datasets with documentation.  
-- `scripts/` – R scripts for preprocessing, modeling, and visualization.  
-- `results/` – figures, tables, and model outputs.  
-- `docs/` – project documentation.
+## Repository Layout
+- `data/` – processed datasets with data cleaning code in R.  
+- `scripts/` – R scripts for preprocessing, modeling, and visualization.
+
+---
+
+### Prerequisites
+Make sure you have R (≥ 4.0) installed with these packages:
+```R
+install.packages(c("tidyverse", "glmnet", "randomForest", "caret"))
 
   
