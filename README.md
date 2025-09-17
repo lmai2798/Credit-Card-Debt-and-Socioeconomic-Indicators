@@ -36,7 +36,7 @@ Three models were implemented in **R**:
 
 ---
 
-### References
+## References
 - New York Federal Reserve – Household Debt and Credit Reports  
 - FRED (Federal Reserve Bank of St. Louis) – Economic Indicators  
 - U.S. Census Bureau – Income & Education Data  
